@@ -1,0 +1,15 @@
+.step {
+  margin-bottom: 48px;
+  &:hover {
+    .num {
+      opacity: 1;
+    }
+    .changes {
+      opacity: 1;
+    }
+    .text_view_active {
+      opacity: 1;
+      color: #FFDB4D;
+    }
+  }
+}

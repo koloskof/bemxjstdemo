@@ -1,0 +1,25 @@
+.header {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  &__title {
+    margin-left: $space-xxs;
+  }
+  &__description {
+    .text {
+      line-height: 1.6em;
+    }
+  }
+  &__get {
+    line-height: 48px;
+    display: inline-block;
+    padding: 0px 60px;
+    border: 2px solid #fff;
+    text-decoration: none;
+    color: $color-typo-inverse;
+    font-size: 15px;
+    &:hover {
+      background: #fff;
+      color: #000;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.feedback {
+  margin-bottom: 128px;
+  text-align: center;
+  &__photo {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background-size: 96px;
+    background-image: url('https://raw.githubusercontent.com/koloskof/bem-xjst-demo/master/asset/slava.png');
+    margin: auto;
+    margin-bottom: $space-s;
+  }
+}

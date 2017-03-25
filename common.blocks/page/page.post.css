@@ -1,0 +1,87 @@
+/* 
+    BEM Design social
+*/
+
+@use postcss-simple-vars;
+@use postcss-nested;
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+       url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+       url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+/* Базовые цвета (только для наследования) */
+$color-base: #000000;
+$color-essential: #FFFFFF;
+$color-project: #FFCC00;
+$color-phantom: #F6F5F3;
+$color-radical: #EE0000;
+$color-path: #0044BB;
+$color-source: #007700;
+
+/* Цвета текста */
+$color-typo-primary: #000000; /* Базовый текст */
+$color-typo-secondary: #605D5D; /* Второстепенный текст */
+$color-typo-promo: #333333; /* Текст для промок */
+$color-typo-inverse: #FFFFFF; /* Текст инверсии  */
+$color-typo-disable: #999999; /* Текс не активный */
+$color-typo-income: #04A504; /* Текст дохода/приход */
+$color-typo-letter:  #FF0000; /* Текст первых букв */
+$color-typo-action: #FF5A4C; /* Текст активный */
+
+/* Цвета ссылок */
+$color-link: #0044BB; /* Основная ссылка */
+$color-link-hover: #CC0000; /* Ховер ссылки */
+$color-link-minor: #666699; /* Второстепенная ссылка */
+
+/* Цвета блоков */
+$color-brand: #FFCC00; /* Цвет бренда */
+$color-action: #FFDB4D; /* Цвет акцентов */
+$color-selection: #FFEBA0; /* Цвет выделений */
+$color-hover: #FFF6CB; /* Цвет наведений */
+$color-inverse: #1a1a1a; /* Инверсия плашек */
+$color-border: #E5E5E5; /* Границ */
+$color-ghost: #F3F1ED; /* подложка  / виджет */
+$color-default: #FFFFFF; /* Дефолтный цвет фона */
+
+/* Размеры текста */
+$size-typo-xs: 11px;
+$size-typo-s: 13px;
+$size-typo-m: 15px;
+$size-typo-l: 18px;
+$size-typo-xl: 20px;
+$size-typo-xxl: 24px;
+$size-typo-xxxl: 32px;
+$size-typo-xxxxl: 48px;
+
+/* Typo */
+$space-xxxs: 2px;
+$space-xxs: 4px;
+$space-xs: 8px;
+$space-s: 12px;
+$space-m: 16px;
+$space-l: 20px;
+$space-xl: 24px;
+$space-xxl: 32px;
+$space-xxxl: 40px;
+$space-xxxxl: 48px;
+
+
+.page_theme_islands {
+  background: #000003 !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+
+
+
+
+
+

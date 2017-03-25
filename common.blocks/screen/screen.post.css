@@ -1,0 +1,6 @@
+.screencast {
+  margin-bottom: 154px;
+  &__content {
+    margin-top: -7px;
+  }
+}
