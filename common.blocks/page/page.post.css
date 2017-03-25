@@ -81,6 +81,120 @@ $space-xxxxl: 48px;
 
 
 
+.overlay {
+  background: #000;
+}
+
+.overlay-window {
+  padding: 96px 0px;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.code-example {
+  box-sizing: border-box;
+  margin-bottom: 120px;
+  padding: 36px;
+  width: 1100px;
+  background: #fff;
+  position: relative;
+  &__info {
+    width: 720px;
+  }
+  &__close {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: -48px;
+    right: -48px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28'%3E%3Cg fill='none' fill-rule='evenodd' transform='translate%28-10 -10%29'%3E%3Cpolygon fill='%23FFFFFF' points='38 12.82 35.18 10 24 21.18 12.82 10 10 12.82 21.18 24 10 35.18 12.82 38 24 26.82 35.18 38 38 35.18 26.82 24'/%3E%3Cpolygon points='0 0 48 0 48 48 0 48'/%3E%3C/g%3E%3C/svg%3E%0A");
+  }
+  &__item {
+    background: #000;
+    width: 500px;
+    box-sizing: border-box;
+  }
+  &__steps {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+}
+
+.code-toggle {
+  position: absolute;
+  top: 36px;
+  right: 36px;
+  border: 2px solid #000;
+  display: inline-flex;
+  font-size: 15px;
+
+  &__item {
+    width: 120px;
+    height: 48px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &_state {
+      &_active {
+        background: #fff;
+        color: #000;
+      }
+    }
+  }
+}
+
+.code-nav {
+  height: 48px;
+  width: 360px;
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  margin-left: -180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__prev {
+    height: 48px;
+    width: 48px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='24' viewBox='0 0 15 24'%3E%3Cg fill='none' fill-rule='evenodd' transform='translate%28-16 -12%29'%3E%3Cpolygon fill='%23FFFFFF' points='30.82 14.82 28 12 16 24 28 36 30.82 33.18 21.66 24'/%3E%3Cpolygon points='0 0 48 0 48 48 0 48'/%3E%3C/g%3E%3C/svg%3E%0A");
+  }
+  &__steps {
+
+  }
+  &__next {
+    height: 48px;
+    width: 48px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='24' viewBox='0 0 15 24'%3E%3Cg fill='none' fill-rule='evenodd' transform='translate%28-17 -12%29'%3E%3Cpolygon fill='%23FFFFFF' points='20 12 17.18 14.82 26.34 24 17.18 33.18 20 36 32 24'/%3E%3Cpolygon points='0 0 48 0 48 48 0 48'/%3E%3C/g%3E%3C/svg%3E%0A");
+  }
+}
+
+
+.field {
+  &__header {
+    padding: 16px;
+    background: #111;
+  }
+  &__content {
+    padding: 16px;
+    margin: 0px;
+    background: #1a1a1a;
+    color: #fff;
+    height: 400px;
+  }
+}
+
+
+
+
 
 
 
