@@ -1,0 +1,13 @@
+.field {
+  &__header {
+    padding: 16px;
+    background: #111;
+  }
+  &__content {
+    padding: 16px;
+    margin: 0px;
+    background: #1a1a1a;
+    color: #fff;
+    height: 360px;
+  }
+}

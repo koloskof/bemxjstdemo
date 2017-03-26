@@ -10,9 +10,15 @@ module.exports = {
     { elem: 'css', url: 'https://fonts.googleapis.com/icon?family=Material+Icons' },
     { elem: 'css', url: 'https://fonts.googleapis.com/css?family=Roboto"rel="stylesheet' }
   ],
-  scripts: [{ elem: 'js', url: 'demo.min.js' }],
+  scripts: [
+    { elem: 'js', url: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' },
+    { elem: 'js', url: 'https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.6/ace.js' },
+    { elem: 'js', url: 'demo.min.js' }
+  ],
   mods: { theme: 'islands' },
   content: [
+
+    /* Content */
     {
       block : 'header',
       content : [
@@ -47,10 +53,10 @@ module.exports = {
                   elem : 'description',
                   content : [
                     {
-                  block : 'text',
-                  mods : { view : 'inverse', size : 'xl', indent : 'xxxl', weight : 'thin' },
-                  content : 'Шаблонизатор для тех, кто ведёт веб-разработку в&nbsp;рамках БЭМ-методологии. В&nbsp;основе шаблонизатора лежат декларативные принципы из&nbsp;XSLT (eXtensible Stylesheet Language Transformations)'
-                   }
+                      block : 'text',
+                      mods : { view : 'inverse', size : 'xl', indent : 'xxxl', weight : 'thin' },
+                      content : 'Шаблонизатор для тех, кто ведёт веб-разработку в рамках БЭМ-методологии. В основе шаблонизатора лежат декларативные принципы из XSLT (eXtensible Stylesheet Language Transformations)'
+                    }
                   ]
                 },
                 {
@@ -58,7 +64,8 @@ module.exports = {
                   elem : 'get',
                   tag : 'a',
                   attrs : {
-                    href : 'http://bemxjst.ru'
+                    href : 'https://bem.github.io/bem-xjst',
+                    target : '_blank'
                   },
                   content : 'Написать шаблон'
                 }
@@ -86,7 +93,10 @@ module.exports = {
                 {
                   block : 'text',
                   mods : { size : 'xl', view : 'inverse', indent : 'xxxl', weight : 'thin' },
-                  content : 'Шаблонизатор позволяет формировать интерфейс на&nbsp;основе данных и&nbsp;гибко его настраивать.'
+                  content : [
+                    'Шаблонизатор позволяет формироватьинтерфейс  на основе данных и гибко его настраивать.',
+                    'Шаблонизатор позволяет формироватьинтерфейс  на основе данных и гибко его настраивать.'
+                  ]
                 },
                 {
                   block : 'advantages',
@@ -157,7 +167,7 @@ module.exports = {
                               ]
                             }
                           ]
-                        } 
+                        }
                       ]
                     },
                     {
@@ -226,7 +236,7 @@ module.exports = {
                               ]
                             }
                           ]
-                        } 
+                        }
                       ]
                     }
                   ]
@@ -245,7 +255,7 @@ module.exports = {
                     },
                     {
                       elem : 'style'
-                    }   
+                    }
                   ]
                 }
               ]
@@ -292,6 +302,7 @@ module.exports = {
           content : [
             {
               block : 'step',
+              mods : { num : 1 },
               content : [
                 {
                   block : 'row',
@@ -376,10 +387,10 @@ module.exports = {
                           mods : { view : 'active', size : 'm', transform : 'uppercase', spacing : 's' },
                           content : 'Посмотреть изменения'
                         }
-                      
+
                       ]
                     },
-                  
+
                     {
                       elem : 'col',
                       elemMods : { sw : 5 },
@@ -441,9 +452,10 @@ module.exports = {
                   ]
                 }
               ]
-            },     
+            },
             {
               block : 'step',
+              mods : { num : 2 },
               content : [
                 {
                   block : 'row',
@@ -473,7 +485,7 @@ module.exports = {
                           mods : { view : 'inverse', size : 'l', indent : 'm' },
                           content : 'К элементу photo добавляем атрибут src'
                         },
-                        
+
                         {
                           block : 'changes',
                           content : [
@@ -530,7 +542,7 @@ module.exports = {
                         }
                       ]
                     },
-                  
+
                     {
                       elem : 'col',
                       elemMods : { sw : 5 },
@@ -597,9 +609,10 @@ module.exports = {
                   ]
                 }
               ]
-            },     
+            },
             {
               block : 'step',
+              mods : { num : 3 },
               content : [
                 {
                   block : 'row',
@@ -751,9 +764,10 @@ module.exports = {
                   ]
                 }
               ]
-            },     
+            },
             {
               block : 'step',
+              mods : { num : 4 },
               content : [
                 {
                   block : 'row',
@@ -906,9 +920,10 @@ module.exports = {
                   ]
                 }
               ]
-            },     
+            },
             {
               block : 'step',
+              mods : { num : 5 },
               content : [
                 {
                   block : 'row',
@@ -1055,7 +1070,7 @@ module.exports = {
                             }
                           ]
                         }
-                     
+
                       ]
                     }
                   ]
@@ -1064,6 +1079,7 @@ module.exports = {
             },
             {
               block : 'step',
+              mods : { num : 6 },
               content : [
                 {
                   block : 'row',
@@ -1209,7 +1225,7 @@ module.exports = {
                             }
                           ]
                         }
-                     
+
                       ]
                     }
                   ]
@@ -1218,6 +1234,7 @@ module.exports = {
             },
             {
               block : 'step',
+              mods : { num : 7 },
               content : [
                 {
                   block : 'row',
@@ -1500,7 +1517,7 @@ module.exports = {
                                   ]
                                 }
                               ]
-                            } 
+                            }
                           ]
                         },
                         {
@@ -1626,7 +1643,7 @@ module.exports = {
                          }
                        ]
                      },
-                    
+
                     /*
                     {
                       block : 'copy',
@@ -1684,6 +1701,1195 @@ module.exports = {
           ]
         }
       ]
+    },
+    /* /Content */
+
+
+    /* Overlay */
+    {
+      block : 'overlay',
+      content : [
+        {
+          block : 'overlay-window',
+          content : [
+            {
+              block : 'code-example',
+              mods : { num : 1 },
+              content : [
+                {
+                  elem : 'close'
+                },
+                {
+                  block : 'code-toggle',
+                  content : [
+                    {
+                      elem : 'item',
+                      elemMods : { state : 'active' },
+                      content : 'BEMHTML'
+                    },
+                    {
+                      elem : 'item',
+                      content : 'HTML'
+                    }
+                  ]
+                },
+                {
+                  elem : 'info',
+                  content : [
+                    {
+                      block : 'text',
+                      mods : { view : 'primary', size : 'xxl', indent : 's' },
+                      content : 'К элементу photo добавляем тег'
+                    },
+                    {
+                      block : 'text',
+                      mods : { view : 'secondary', size : 'm', indent : 'xl' },
+                      content : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad vel dolore recusandae eum quia id laudantium est officia excepturi, obcaecati eaque, quibusdam, iste fugiat quo nemo ut. Architecto, cumque, inventore.'
+                    }
+                  ]
+                },
+                {
+                  elem : 'steps',
+                  elemMods : { type : 'bemhtml'},
+                  content : [
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Предыдущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit'
+                              },
+                              content : [
+                                " "
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Текущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit1'
+                              },
+                              content : [
+                                "elem('photo')(\n  match(function (context, json) { return json.url; })(\n    tag()('img'),\n  )\n)"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  elem : 'steps',
+                  elemMods : { type : 'html' },
+                  content : [
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Предыдущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              tag : 'xmp',
+                              content : '<code>'
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Текущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              tag : 'xmp',
+                              content : [
+                                "<code>"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              block : 'code-example',
+              mods : { num : 2 },
+              content : [
+                {
+                  elem : 'close'
+                },
+                {
+                  block : 'code-toggle',
+                  content : [
+                    {
+                      elem : 'item',
+                      elemMods : { state : 'active' },
+                      content : 'BEMHTML'
+                    },
+                    {
+                      elem : 'item',
+                      content : 'HTML'
+                    }
+                  ]
+                },
+                {
+                  elem : 'info',
+                  content : [
+                    {
+                      block : 'text',
+                      mods : { view : 'primary', size : 'xxl', indent : 's' },
+                      content : 'К элементу photo добавляем тег'
+                    },
+                    {
+                      block : 'text',
+                      mods : { view : 'secondary', size : 'm', indent : 'xl' },
+                      content : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad vel dolore recusandae eum quia id laudantium est officia excepturi, obcaecati eaque, quibusdam, iste fugiat quo nemo ut. Architecto, cumque, inventore.'
+                    }
+                  ]
+                },
+                {
+                  elem : 'steps',
+                  elemMods : { type : 'bemhtml'},
+                  content : [
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Предыдущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit21'
+                              },
+                              content : [
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Текущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit22'
+                              },
+                              content : [
+                                "elem('photo')(\n    match(function (context, json) { return json.url; })(\n    addAttrs()((context, json) => ({ href: json.url }))\n  )\n)"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  elem : 'steps',
+                  elemMods : { type : 'html' },
+                  content : [
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Предыдущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit23'
+                              },
+                              content :
+                              [
+                                "{\n  block : 'user',\n  url: 'john.png', \n  name : 'John Johnson',\n  company : 'Johnson & Johnson',\n  website : 'http://johnson.co',\n  website_url : 'http://johnson.co',\n  online: true\n}"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Текущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit24'
+                              },
+                              content :
+                              [
+                                "{\n  block : 'user',\n  url: 'john.png', \n  name : 'John Johnson',\n  company : 'Johnson & Johnson',\n  website : 'http://johnson.co',\n  website_url : 'http://johnson.co',\n  online: true\n}"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              block : 'code-example',
+              mods : { num : 3 },
+              content : [
+                {
+                  elem : 'close'
+                },
+                {
+                  block : 'code-toggle',
+                  content : [
+                    {
+                      elem : 'item',
+                      elemMods : { state : 'active' },
+                      content : 'BEMHTML'
+                    },
+                    {
+                      elem : 'item',
+                      content : 'HTML'
+                    }
+                  ]
+                },
+                {
+                  elem : 'info',
+                  content : [
+                    {
+                      block : 'text',
+                      mods : { view : 'primary', size : 'xxl', indent : 's' },
+                      content : 'К элементу photo добавляем тег'
+                    },
+                    {
+                      block : 'text',
+                      mods : { view : 'secondary', size : 'm', indent : 'xl' },
+                      content : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad vel dolore recusandae eum quia id laudantium est officia excepturi, obcaecati eaque, quibusdam, iste fugiat quo nemo ut. Architecto, cumque, inventore.'
+                    }
+                  ]
+                },
+                {
+                  elem : 'steps',
+                  elemMods : { type : 'bemhtml'},
+                  content : [
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Предыдущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit31'
+                              },
+                              content :
+                              [
+                                " "
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Текущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit32'
+                              },
+                              content : [
+                                "elem('photo').wrap()(function() {\n  return {\n    block: 'avatar',\n    content: this.ctx\n  }\n})"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  elem : 'steps',
+                  elemMods : { type : 'html' },
+                  content : [
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Предыдущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit33'
+                              },
+                              content :
+                              [
+                                "{\n  block : 'user',\n  url: 'john.png', \n  name : 'John Johnson',\n  company : 'Johnson & Johnson',\n  website : 'http://johnson.co',\n  website_url : 'http://johnson.co',\n  online: true\n}"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Текущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit34'
+                              },
+                              content :
+                              [
+                                "{\n  block : 'user',\n  url: 'john.png', \n  name : 'John Johnson',\n  company : 'Johnson & Johnson',\n  website : 'http://johnson.co',\n  website_url : 'http://johnson.co',\n  online: true\n}"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              block : 'code-example',
+              mods : { num : 4 },
+              content : [
+                {
+                  elem : 'close'
+                },
+                {
+                  block : 'code-toggle',
+                  content : [
+                    {
+                      elem : 'item',
+                      elemMods : { state : 'active' },
+                      content : 'BEMHTML'
+                    },
+                    {
+                      elem : 'item',
+                      content : 'HTML'
+                    }
+                  ]
+                },
+                {
+                  elem : 'info',
+                  content : [
+                    {
+                      block : 'text',
+                      mods : { view : 'primary', size : 'xxl', indent : 's' },
+                      content : 'К элементу photo добавляем тег'
+                    },
+                    {
+                      block : 'text',
+                      mods : { view : 'secondary', size : 'm', indent : 'xl' },
+                      content : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad vel dolore recusandae eum quia id laudantium est officia excepturi, obcaecati eaque, quibusdam, iste fugiat quo nemo ut. Architecto, cumque, inventore.'
+                    }
+                  ]
+                },
+                {
+                  elem : 'steps',
+                  elemMods : { type : 'bemhtml'},
+                  content : [
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Предыдущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit41'
+                              },
+                              content : [
+                                " "
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Текущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit42'
+                              },
+                              content : [
+                                "elem('company')(\n  prependContent()('«'),\n  appendContent()('»')\n)"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  elem : 'steps',
+                  elemMods : { type : 'html' },
+                  content : [
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Предыдущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit43'
+                              },
+                              content :
+                              [
+                                "{\n  block : 'user',\n  url: 'john.png', \n  name : 'John Johnson',\n  company : 'Johnson & Johnson',\n  website : 'http://johnson.co',\n  website_url : 'http://johnson.co',\n  online: true\n}"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Текущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit44'
+                              },
+                              content :
+                              [
+                                "{\n  block : 'user',\n  url: 'john.png', \n  name : 'John Johnson',\n  company : 'Johnson & Johnson',\n  website : 'http://johnson.co',\n  website_url : 'http://johnson.co',\n  online: true\n}"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              block : 'code-example',
+              mods : { num : 5 },
+              content : [
+                {
+                  elem : 'close'
+                },
+                {
+                  block : 'code-toggle',
+                  content : [
+                    {
+                      elem : 'item',
+                      elemMods : { state : 'active' },
+                      content : 'BEMHTML'
+                    },
+                    {
+                      elem : 'item',
+                      content : 'HTML'
+                    }
+                  ]
+                },
+                {
+                  elem : 'info',
+                  content : [
+                    {
+                      block : 'text',
+                      mods : { view : 'primary', size : 'xxl', indent : 's' },
+                      content : 'К элементу photo добавляем тег'
+                    },
+                    {
+                      block : 'text',
+                      mods : { view : 'secondary', size : 'm', indent : 'xl' },
+                      content : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad vel dolore recusandae eum quia id laudantium est officia excepturi, obcaecati eaque, quibusdam, iste fugiat quo nemo ut. Architecto, cumque, inventore.'
+                    }
+                  ]
+                },
+                {
+                  elem : 'steps',
+                  elemMods : { type : 'bemhtml'},
+                  content : [
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Предыдущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit51'
+                              },
+                              content : [
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Текущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit52'
+                              },
+                              content : [
+                                "elem('website')(\n  tag()('a'),\n  mix()({ block: 'link' }),\n  addAttrs()((context, json) => ({ href: json.url })\n)"
+
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  elem : 'steps',
+                  elemMods : { type : 'html' },
+                  content : [
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Предыдущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit53'
+                              },
+                              content :
+                              [
+                                "{\n  block : 'user',\n  url: 'john.png', \n  name : 'John Johnson',\n  company : 'Johnson & Johnson',\n  website : 'http://johnson.co',\n  website_url : 'http://johnson.co',\n  online: true\n}"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Текущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit54'
+                              },
+                              content :
+                              [
+                                "{\n  block : 'user',\n  url: 'john.png', \n  name : 'John Johnson',\n  company : 'Johnson & Johnson',\n  website : 'http://johnson.co',\n  website_url : 'http://johnson.co',\n  online: true\n}"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              block : 'code-example',
+              mods : { num : 6 },
+              content : [
+                {
+                  elem : 'close'
+                },
+                {
+                  block : 'code-toggle',
+                  content : [
+                    {
+                      elem : 'item',
+                      elemMods : { state : 'active' },
+                      content : 'BEMHTML'
+                    },
+                    {
+                      elem : 'item',
+                      content : 'HTML'
+                    }
+                  ]
+                },
+                {
+                  elem : 'info',
+                  content : [
+                    {
+                      block : 'text',
+                      mods : { view : 'primary', size : 'xxl', indent : 's' },
+                      content : 'К элементу photo добавляем тег'
+                    },
+                    {
+                      block : 'text',
+                      mods : { view : 'secondary', size : 'm', indent : 'xl' },
+                      content : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad vel dolore recusandae eum quia id laudantium est officia excepturi, obcaecati eaque, quibusdam, iste fugiat quo nemo ut. Architecto, cumque, inventore.'
+                    }
+                  ]
+                },
+                {
+                  elem : 'steps',
+                  elemMods : { type : 'bemhtml'},
+                  content : [
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Предыдущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit61'
+                              },
+                              content :  [
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Текущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit62'
+                              },
+                              content :
+                              [
+                                "elem('add').replace()({\n   block: 'add-to-friend'\n})"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  elem : 'steps',
+                  elemMods : { type : 'html' },
+                  content : [
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Предыдущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit63'
+                              },
+                              content :
+                              [
+                                "{\n  block : 'user',\n  url: 'john.png', \n  name : 'John Johnson',\n  company : 'Johnson & Johnson',\n  website : 'http://johnson.co',\n  website_url : 'http://johnson.co',\n  online: true\n}"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Текущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit64'
+                              },
+                              content :
+                              [
+                                "{\n  block : 'user',\n  url: 'john.png', \n  name : 'John Johnson',\n  company : 'Johnson & Johnson',\n  website : 'http://johnson.co',\n  website_url : 'http://johnson.co',\n  online: true\n}"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              block : 'code-example',
+              mods : { num : 7 },
+              content : [
+                {
+                  elem : 'close'
+                },
+                {
+                  block : 'code-toggle',
+                  content : [
+                    {
+                      elem : 'item',
+                      elemMods : { state : 'active' },
+                      content : 'BEMHTML'
+                    },
+                    {
+                      elem : 'item',
+                      content : 'HTML'
+                    }
+                  ]
+                },
+                {
+                  elem : 'info',
+                  content : [
+                    {
+                      block : 'text',
+                      mods : { view : 'primary', size : 'xxl', indent : 's' },
+                      content : 'Добавляем еще одну ссылку'
+                    },
+                    {
+                      block : 'text',
+                      mods : { view : 'secondary', size : 'm', indent : 'xl' },
+                      content : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad vel dolore recusandae eum quia id laudantium est officia excepturi, obcaecati eaque, quibusdam, iste fugiat quo nemo ut. Architecto, cumque, inventore.'
+                    }
+                  ]
+                },
+                {
+                  elem : 'steps',
+                  elemMods : { type : 'bemhtml'},
+                  content : [
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Предыдущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit71'
+                              },
+                              content : [
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Текущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit72'
+                              },
+                              content : [
+                                "{\n  block : 'user', \n  url: 'john.png',\n  name : 'John Johnson',\n  company : 'Johnson & Johnson',\n  website : 'http://johnson.co',\n  website : 'http://johnson.co',\n  online: true\n}"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                /*
+                {
+                  elem : 'steps',
+                  elemMods : { type : 'html' },
+                  content : [
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Предыдущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit73'
+                              },
+                              content :
+                              [
+                                "{\n  block : 'user',\n  url: 'john.png', \n  name : 'John Johnson',\n  company : 'Johnson & Johnson',\n  website : 'http://johnson.co',\n  website_url : 'http://johnson.co',\n  online: true\n}"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Текущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit74'
+                              },
+                              content :
+                              [
+                                "{\n  block : 'user',\n  url: 'john.png', \n  name : 'John Johnson',\n  company : 'Johnson & Johnson',\n  website : 'http://johnson.co',\n  website_url : 'http://johnson.co',\n  online: true\n}"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+                */
+              ]
+            },
+          ]
+        }
+      ]
     }
+    /* /Overlay */
+
   ]
 };
