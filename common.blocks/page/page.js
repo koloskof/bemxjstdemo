@@ -38,8 +38,8 @@ $('.step_num_7').click(function(){
   $('.code-example_num_7').addClass('code-example_state_active');
 });
 
-var editor = ace.edit("edit");
-var editor2 = ace.edit("edit1");
+var editor11 = ace.edit("edit11");
+var editor12 = ace.edit("edit12");
 
 
 var editor21 = ace.edit("edit21");
