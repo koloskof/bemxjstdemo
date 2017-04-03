@@ -341,12 +341,7 @@ module.exports = {
                                 {
                                   elem : 'num',
                                   elemMods : { action : 'plus'},
-                                  content :  '+5'
-                                },
-                                {
-                                  elem : 'num',
-                                  elemMods : { action : 'minus'},
-                                  content :  '-5'
+                                  content :  '+6'
                                 }
                               ]
                             },
@@ -367,17 +362,15 @@ module.exports = {
                                 },
                                 {
                                   elem : 'item',
-                                  elemMods : { action : 'minus'}
                                 },
                                 {
                                   elem : 'item',
-                                  elemMods : { action : 'minus'}
                                 },
                               ]
                             },
                             {
                               elem : 'comments',
-                              content : '• 3 comments'
+                              content : '• 1 comment'
                             }
                           ]
                         },
@@ -493,12 +486,7 @@ module.exports = {
                                 {
                                   elem : 'num',
                                   elemMods : { action : 'plus'},
-                                  content :  '+5'
-                                },
-                                {
-                                  elem : 'num',
-                                  elemMods : { action : 'minus'},
-                                  content :  '-5'
+                                  content :  '+6'
                                 }
                               ]
                             },
@@ -519,17 +507,15 @@ module.exports = {
                                 },
                                 {
                                   elem : 'item',
-                                  elemMods : { action : 'minus'}
                                 },
                                 {
                                   elem : 'item',
-                                  elemMods : { action : 'minus'}
                                 },
                               ]
                             },
                             {
                               elem : 'comments',
-                              content : '• 3 comments'
+                              content : '• 1 comment'
                             }
                           ]
                         },
@@ -649,13 +635,8 @@ module.exports = {
                                 {
                                   elem : 'num',
                                   elemMods : { action : 'plus'},
-                                  content :  '+5'
+                                  content :  '+7'
                                 },
-                                {
-                                  elem : 'num',
-                                  elemMods : { action : 'minus'},
-                                  content :  '-5'
-                                }
                               ]
                             },
                             {
@@ -674,18 +655,16 @@ module.exports = {
                                   elemMods : { action : 'plus'}
                                 },
                                 {
-                                  elem : 'item',
-                                  elemMods : { action : 'minus'}
+                                  elem : 'item'
                                 },
                                 {
-                                  elem : 'item',
-                                  elemMods : { action : 'minus'}
-                                },
+                                  elem : 'item'
+                                }
                               ]
                             },
                             {
                               elem : 'comments',
-                              content : '• 3 comments'
+                              content : '• 1 comment'
                             }
                           ]
                         },
@@ -806,11 +785,6 @@ module.exports = {
                                   elem : 'num',
                                   elemMods : { action : 'plus'},
                                   content :  '+5'
-                                },
-                                {
-                                  elem : 'num',
-                                  elemMods : { action : 'minus'},
-                                  content :  '-5'
                                 }
                               ]
                             },
@@ -830,18 +804,16 @@ module.exports = {
                                   elemMods : { action : 'plus'}
                                 },
                                 {
-                                  elem : 'item',
-                                  elemMods : { action : 'minus'}
+                                  elem : 'item'
                                 },
                                 {
-                                  elem : 'item',
-                                  elemMods : { action : 'minus'}
-                                },
+                                  elem : 'item'
+                                }
                               ]
                             },
                             {
                               elem : 'comments',
-                              content : '• 3 comments'
+                              content : '• 1 comment'
                             }
                           ]
                         },
@@ -960,12 +932,7 @@ module.exports = {
                                 {
                                   elem : 'num',
                                   elemMods : { action : 'plus'},
-                                  content :  '+5'
-                                },
-                                {
-                                  elem : 'num',
-                                  elemMods : { action : 'minus'},
-                                  content :  '-5'
+                                  content :  '+6'
                                 }
                               ]
                             },
@@ -986,17 +953,15 @@ module.exports = {
                                 },
                                 {
                                   elem : 'item',
-                                  elemMods : { action : 'minus'}
                                 },
                                 {
                                   elem : 'item',
-                                  elemMods : { action : 'minus'}
-                                },
+                                }
                               ]
                             },
                             {
                               elem : 'comments',
-                              content : '• 3 comments'
+                              content : '• 1 comment'
                             }
                           ]
                         },
@@ -1116,12 +1081,7 @@ module.exports = {
                                 {
                                   elem : 'num',
                                   elemMods : { action : 'plus'},
-                                  content :  '+5'
-                                },
-                                {
-                                  elem : 'num',
-                                  elemMods : { action : 'minus'},
-                                  content :  '-5'
+                                  content :  '+4'
                                 }
                               ]
                             },
@@ -1141,18 +1101,16 @@ module.exports = {
                                   elemMods : { action : 'plus'}
                                 },
                                 {
-                                  elem : 'item',
-                                  elemMods : { action : 'minus'}
+                                  elem : 'item'
                                 },
                                 {
-                                  elem : 'item',
-                                  elemMods : { action : 'minus'}
+                                  elem : 'item'
                                 },
                               ]
                             },
                             {
                               elem : 'comments',
-                              content : '• 3 comments'
+                              content : '• 1 comment'
                             }
                           ]
                         },
@@ -1271,12 +1229,7 @@ module.exports = {
                                 {
                                   elem : 'num',
                                   elemMods : { action : 'plus'},
-                                  content :  '+5'
-                                },
-                                {
-                                  elem : 'num',
-                                  elemMods : { action : 'minus'},
-                                  content :  '-5'
+                                  content :  '+13'
                                 }
                               ]
                             },
@@ -1296,18 +1249,16 @@ module.exports = {
                                   elemMods : { action : 'plus'}
                                 },
                                 {
-                                  elem : 'item',
-                                  elemMods : { action : 'minus'}
+                                  elem : 'item'
                                 },
                                 {
                                   elem : 'item',
-                                  elemMods : { action : 'minus'}
-                                },
+                                }
                               ]
                             },
                             {
                               elem : 'comments',
-                              content : '• 3 comments'
+                              content : '• 1 comment'
                             }
                           ]
                         },
@@ -1375,7 +1326,7 @@ module.exports = {
                                         {
                                           block : 'text',
                                           mods : { view : 'link', size : 'm' },
-                                          content : 'http://jonny.name'
+                                          content : 'http://bem.info'
                                         }
                                       ]
                                     }
@@ -1722,11 +1673,12 @@ module.exports = {
                   content : [
                     {
                       elem : 'item',
-                      elemMods : { state : 'active' },
+                      elemMods : { type : 'bemhtml', state : 'active' },
                       content : 'BEMHTML'
                     },
                     {
                       elem : 'item',
+                      elemMods : { type : 'html' },
                       content : 'HTML'
                     }
                   ]
@@ -1748,7 +1700,7 @@ module.exports = {
                 },
                 {
                   elem : 'steps',
-                  elemMods : { type : 'bemhtml'},
+                  elemMods : { type : 'bemhtml', state : 'active' },
                   content : [
                     {
                       elem : 'item',
@@ -1772,7 +1724,7 @@ module.exports = {
                                 id : 'edit11'
                               },
                               content : [
-                                "block('user')(\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    })\n);"
+                                "block('user')(\n    \n    content()(function(n, ctx) {\n        return {\n            elem : 'photo',\n            url: ctx.url,\n            title: 'john-photo'\n        }\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    })\n);"
                               ]
                             }
                           ]
@@ -1801,7 +1753,7 @@ module.exports = {
                                 id : 'edit12'
                               },
                               content : [
-                                "block('user')(\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    )\n);"
+                                "block('user')(\n    \n    content()(function(n, ctx) {\n        return {\n            elem : 'photo',\n            url: ctx.url,\n            title: 'john-photo'\n        }\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    )\n);"
                               ]
                             }
                           ]
@@ -1832,8 +1784,10 @@ module.exports = {
                             },
                             {
                               elem : 'content',
-                              tag : 'xmp',
-                              content : '<code>'
+                              attrs : {
+                                id : 'edit13'
+                              },
+                              content : '<div class="user user_type_active">\n    <div class="user__photo"></div>\n    <div class="user__info">\n        <div class="user__name">John Johnson</div>\n        <div class="user__company">Johnson &amp; Johnson</div>\n        <div class="user__website">http://johnson.co</div>\n    </div>\n    <div class="user__add">add</div>\n</div>'
                             }
                           ]
                         }
@@ -1857,10 +1811,10 @@ module.exports = {
                             },
                             {
                               elem : 'content',
-                              tag : 'xmp',
-                              content : [
-                                "<code>"
-                              ]
+                              attrs : {
+                                id : 'edit14'
+                              },
+                              content : '<div class="user user_type_active">\n    <img class="user__photo">\n    <div class="user__info">\n        <div class="user__name">John Johnson</div>\n        <div class="user__company">Johnson &amp; Johnson</div>\n        <div class="user__website">http://johnson.co</div>\n    </div>\n    <div class="user__add">add</div>\n</div>'
                             }
                           ]
                         }
@@ -1882,11 +1836,12 @@ module.exports = {
                   content : [
                     {
                       elem : 'item',
-                      elemMods : { state : 'active' },
+                      elemMods : { type : 'bemhtml', state : 'active' },
                       content : 'BEMHTML'
                     },
                     {
                       elem : 'item',
+                      elemMods : { type : 'html' },
                       content : 'HTML'
                     }
                   ]
@@ -1908,7 +1863,7 @@ module.exports = {
                 },
                 {
                   elem : 'steps',
-                  elemMods : { type : 'bemhtml'},
+                  elemMods : { type : 'bemhtml', state : 'active' },
                   content : [
                     {
                       elem : 'item',
@@ -1932,7 +1887,7 @@ module.exports = {
                                 id : 'edit21'
                               },
                               content : [
-                                "block('user')(\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    )\n);"
+                                "block('user')(\n        \n    content()(function(n, ctx) {\n        return {\n            elem : 'photo',\n            url: ctx.url,\n            title: 'john-photo'\n        }\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    )\n);"
                               ]
                             }
                           ]
@@ -1961,7 +1916,7 @@ module.exports = {
                                 id : 'edit22'
                               },
                               content : [
-                                "block('user')(\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    ),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            addAttrs()((context, json) => ({ href: json.url }))\n        )\n    )\n);"
+                                "block('user')(\n        \n    content()(function(n, ctx) {\n        return {\n            elem : 'photo',\n            url: ctx.url,\n            title: 'john-photo'\n        }\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    ),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            addAttrs()((context, json) => ({ href: json.url }))\n        )\n    )\n);"
                               ]
                             }
                           ]
@@ -1995,10 +1950,7 @@ module.exports = {
                               attrs : {
                                 id : 'edit23'
                               },
-                              content :
-                              [
-                                "{\n  block : 'user',\n  url: 'john.png', \n  name : 'John Johnson',\n  company : 'Johnson & Johnson',\n  website : 'http://johnson.co'\n  website_url : 'http://johnson.co',\n  online: true\n}"
-                              ]
+                              content : '<div class="user user_type_active">\n    <img class="user__photo">\n    <div class="user__info">\n        <div class="user__name">John Johnson</div>\n        <div class="user__company">Johnson &amp; Johnson</div>\n        <div class="user__website">http://johnson.co</div>\n    </div>\n    <div class="user__add">add</div>\n</div>'
                             }
                           ]
                         }
@@ -2025,10 +1977,7 @@ module.exports = {
                               attrs : {
                                 id : 'edit24'
                               },
-                              content :
-                              [
-                                "{\n  block : 'user',\n  url: 'john.png', \n  name : 'John Johnson',\n  company : 'Johnson & Johnson',\n  website : 'http://johnson.co',\n  website_url : 'http://johnson.co',\n  online: true\n}"
-                              ]
+                              content : '<div class="user user_type_active">\n    <img class="user__photo" href="john.png" >\n    <div class="user__info">\n        <div class="user__name">John Johnson</div>\n        <div class="user__company">Johnson &amp; Johnson</div>\n        <div class="user__website">http://johnson.co</div>\n    </div>\n    <div class="user__add">add</div>\n</div>'
                             }
                           ]
                         }
@@ -2050,11 +1999,12 @@ module.exports = {
                   content : [
                     {
                       elem : 'item',
-                      elemMods : { state : 'active' },
+                      elemMods : { type : 'bemhtml', state : 'active' },
                       content : 'BEMHTML'
                     },
                     {
                       elem : 'item',
+                      elemMods : { type : 'html' },
                       content : 'HTML'
                     }
                   ]
@@ -2076,7 +2026,7 @@ module.exports = {
                 },
                 {
                   elem : 'steps',
-                  elemMods : { type : 'bemhtml'},
+                  elemMods : { type : 'bemhtml', state : 'active' },
                   content : [
                     {
                       elem : 'item',
@@ -2100,7 +2050,7 @@ module.exports = {
                                 id : 'edit31'
                               },
                               content : [
-                                "block('user')(\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    ),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            addAttrs()((context, json) => ({ href: json.url }))\n        )\n    )\n);"
+                                "block('user')(\n    \n    content()(function(n, ctx) {\n        return {\n            elem : 'photo',\n            url: ctx.url,\n            title: 'john-photo'\n        }\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    ),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            addAttrs()((context, json) => ({ href: json.url }))\n        )\n    )\n);"
                               ]
                             }
                           ]
@@ -2129,7 +2079,7 @@ module.exports = {
                                 id : 'edit32'
                               },
                               content : [
-                                  "block('user')(\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    ),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            addAttrs()((context, json) => ({ href: json.url }))\n        )\n    ),    \n\n    elem('photo').wrap()(function() {    \n        return {\n            block: 'avatar',\n            content: this.ctx\n        }\n    })\n);"
+                                  "block('user')(\n    \n    content()(function(n, ctx) {\n        return {\n            elem : 'photo',\n            url: ctx.url,\n            title: 'john-photo'\n        }\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    ),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            addAttrs()((context, json) => ({ href: json.url }))\n        )\n    ),    \n\n    elem('photo').wrap()(function() {    \n        return {\n            block: 'avatar',\n            content: this.ctx\n        }\n    })\n);"
                               ]
                             }
                           ]
@@ -2163,10 +2113,7 @@ module.exports = {
                               attrs : {
                                 id : 'edit33'
                               },
-                              content :
-                              [
-                                "{\n  block : 'user',\n  url: 'john.png', \n  name : 'John Johnson',\n  company : 'Johnson & Johnson',\n  website : 'http://johnson.co',\n  website_url : 'http://johnson.co',\n  online: true\n}"
-                              ]
+                              content : '<div class="user user_type_active">\n    <img class="user__photo" href="john.png" >\n    <div class="user__info">\n        <div class="user__name">John Johnson</div>\n        <div class="user__company">Johnson &amp; Johnson</div>\n        <div class="user__website">http://johnson.co</div>\n    </div>\n    <div class="user__add">add</div>\n</div>'
                             }
                           ]
                         }
@@ -2193,10 +2140,7 @@ module.exports = {
                               attrs : {
                                 id : 'edit34'
                               },
-                              content :
-                              [
-                                "{\n  block : 'user',\n  url: 'john.png', \n  name : 'John Johnson',\n  company : 'Johnson & Johnson',\n  website : 'http://johnson.co',\n  website_url : 'http://johnson.co',\n  online: true\n}"
-                              ]
+                              content : '<div class="user user_type_active">\n    <div class="avatar">\n        <img class="avatar__photo" href="john.png" >\n    </div>\n    <div class="user__info">\n        <div class="user__name">John Johnson</div>\n        <div class="user__company">Johnson &amp; Johnson</div>\n        <div class="user__website">http://johnson.co</div>\n    </div>\n    <div class="user__add">add</div>\n</div>'
                             }
                           ]
                         }
@@ -2218,11 +2162,12 @@ module.exports = {
                   content : [
                     {
                       elem : 'item',
-                      elemMods : { state : 'active' },
+                      elemMods : { type : 'bemhtml', state : 'active' },
                       content : 'BEMHTML'
                     },
                     {
                       elem : 'item',
+                      elemMods : { type : 'html' },
                       content : 'HTML'
                     }
                   ]
@@ -2244,7 +2189,7 @@ module.exports = {
                 },
                 {
                   elem : 'steps',
-                  elemMods : { type : 'bemhtml'},
+                  elemMods : { type : 'bemhtml', state : 'active' },
                   content : [
                     {
                       elem : 'item',
@@ -2268,7 +2213,7 @@ module.exports = {
                                 id : 'edit41'
                               },
                               content : [
-                                "block('user')(\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    ),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            addAttrs()((context, json) => ({ href: json.url }))\n        )\n    ),\n\n    elem('photo').wrap()(function() {\n        return {\n            block: 'avatar',\n            content: this.ctx\n        }\n    })\n);"
+                                "block('user')(\n    \n    content()(function(n, ctx) {\n        return {\n            elem : 'photo',\n            url: ctx.url,\n            title: 'john-photo'\n        }\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    ),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            addAttrs()((context, json) => ({ href: json.url }))\n        )\n    ),\n\n    elem('photo').wrap()(function() {\n        return {\n            block: 'avatar',\n            content: this.ctx\n        }\n    })\n);"
                               ]
                             }
                           ]
@@ -2297,7 +2242,7 @@ module.exports = {
                                 id : 'edit42'
                               },
                               content : [
-                                  "block('user')(\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    ),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            addAttrs()((context, json) => ({ href: json.url }))\n        )\n    ),\n\n    elem('photo').wrap()(function() {\n        return {\n            block: 'avatar',\n            content: this.ctx\n        }\n    }),\n\n     elem('company')(\n        prependContent()('«'),\n        appendContent()('»')\n    )\n);"
+                                  "block('user')(\n    \n    content()(function(n, ctx) {\n        return {\n            elem : 'photo',\n            url: ctx.url,\n            title: 'john-photo'\n        }\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                       elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    ),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            addAttrs()((context, json) => ({ href: json.url }))\n        )\n    ),\n\n    elem('photo').wrap()(function() {\n        return {\n            block: 'avatar',\n            content: this.ctx\n        }\n    }),\n\n     elem('company')(\n        prependContent()('«'),\n        appendContent()('»')\n    )\n);"
                               ]
                             }
                           ]
@@ -2331,10 +2276,7 @@ module.exports = {
                               attrs : {
                                 id : 'edit43'
                               },
-                              content :
-                              [
-                                "{\n  block : 'user',\n  url: 'john.png', \n  name : 'John Johnson',\n  company : 'Johnson & Johnson',\n  website : 'http://johnson.co',\n  website_url : 'http://johnson.co',\n  online: true\n}"
-                              ]
+                              content : '<div class="user user_type_active">\n    <div class="avatar">\n        <img class="avatar__photo" href="john.png" >\n    </div>\n    <div class="user__info">\n        <div class="user__name">John Johnson</div>\n        <div class="user__company">Johnson &amp; Johnson</div>\n        <div class="user__website">http://johnson.co</div>\n    </div>\n    <div class="user__add">add</div>\n</div>'
                             }
                           ]
                         }
@@ -2361,10 +2303,7 @@ module.exports = {
                               attrs : {
                                 id : 'edit44'
                               },
-                              content :
-                              [
-                                "{\n  block : 'user',\n  url: 'john.png', \n  name : 'John Johnson',\n  company : 'Johnson & Johnson',\n  website : 'http://johnson.co',\n  website_url : 'http://johnson.co',\n  online: true\n}"
-                              ]
+                              content : '<div class="user user_type_active">\n    <div class="avatar">\n        <img class="avatar__photo" href="john.png" >\n    </div>\n    <div class="user__info">\n        <div class="user__name">John Johnson</div>\n        <div class="user__company">"Johnson &amp; Johnson"</div>\n        <div class="user__website">http://johnson.co</div>\n    </div>\n    <div class="user__add">add</div>\n</div>'
                             }
                           ]
                         }
@@ -2386,11 +2325,12 @@ module.exports = {
                   content : [
                     {
                       elem : 'item',
-                      elemMods : { state : 'active' },
+                      elemMods : { type : 'bemhtml', state : 'active' },
                       content : 'BEMHTML'
                     },
                     {
                       elem : 'item',
+                      elemMods : { type : 'html' },
                       content : 'HTML'
                     }
                   ]
@@ -2412,7 +2352,7 @@ module.exports = {
                 },
                 {
                   elem : 'steps',
-                  elemMods : { type : 'bemhtml'},
+                  elemMods : { type : 'bemhtml', state : 'active' },
                   content : [
                     {
                       elem : 'item',
@@ -2436,7 +2376,7 @@ module.exports = {
                                 id : 'edit51'
                               },
                               content : [
-                                "block('user')(\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    ),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            addAttrs()((context, json) => ({ href: json.url }))\n        )\n    ),\n\n    elem('photo').wrap()(function() {\n        return {\n            block: 'avatar',\n            content: this.ctx\n        }\n    }),\n\n    elem('company')(\n        prependContent()('«'),\n        appendContent()('»')\n    )\n);"
+                                "block('user')(\n    \n    content()(function(n, ctx) {\n        return {\n            elem : 'photo',\n            url: ctx.url,\n            title: 'john-photo'\n        }\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    ),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            addAttrs()((context, json) => ({ href: json.url }))\n        )\n    ),\n\n    elem('photo').wrap()(function() {\n        return {\n            block: 'avatar',\n            content: this.ctx\n        }\n    }),\n\n    elem('company')(\n        prependContent()('«'),\n        appendContent()('»')\n    )\n);"
                               ]
                             }
                           ]
@@ -2465,7 +2405,7 @@ module.exports = {
                                 id : 'edit52'
                               },
                               content : [
-                                "block('user')(\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    ),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            addAttrs()((context, json) => ({ href: json.url }))\n        )\n    ),\n\n    elem('photo').wrap()(function() {\n        return {\n            block: 'avatar',\n            content: this.ctx\n        }\n    }),\n\n    elem('company')(\n        prependContent()('«'),\n        appendContent()('»')\n    ),\n\n    elem('website')(\n        tag()('a'),\n        mix()({ block: 'link' }),\n        addAttrs()((context, json) => ({ href: json.url })\n    )\n);"
+                                "block('user')(\n    \n    content()(function(n, ctx) {\n        return {\n            elem : 'photo',\n            url: ctx.url,\n            title: 'john-photo'\n        }\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    ),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            addAttrs()((context, json) => ({ href: json.url }))\n        )\n    ),\n\n    elem('photo').wrap()(function() {\n        return {\n            block: 'avatar',\n            content: this.ctx\n        }\n    }),\n\n    elem('company')(\n        prependContent()('«'),\n        appendContent()('»')\n    ),\n\n    elem('website')(\n        tag()('a'),\n        mix()({ block: 'link' }),\n        addAttrs()((context, json) => ({ href: json.url })\n    )\n);"
                               ]
                             }
                           ]
@@ -2499,10 +2439,7 @@ module.exports = {
                               attrs : {
                                 id : 'edit53'
                               },
-                              content :
-                              [
-                                "{\n  block : 'user',\n  url: 'john.png', \n  name : 'John Johnson',\n  company : 'Johnson & Johnson',\n  website : 'http://johnson.co',\n  website_url : 'http://johnson.co',\n  online: true\n}"
-                              ]
+                              content : '<div class="user user_type_active">\n    <div class="avatar">\n        <img class="avatar__photo" href="john.png" >\n    </div>\n    <div class="user__info">\n        <div class="user__name">John Johnson</div>\n        <div class="user__company">"Johnson &amp; Johnson"</div>\n        <div class="user__website">http://johnson.co</div>\n    </div>\n    <div class="user__add">add</div>\n</div>'
                             }
                           ]
                         }
@@ -2529,10 +2466,7 @@ module.exports = {
                               attrs : {
                                 id : 'edit54'
                               },
-                              content :
-                              [
-                                "{\n  block : 'user',\n  url: 'john.png', \n  name : 'John Johnson',\n  company : 'Johnson & Johnson',\n  website : 'http://johnson.co',\n  website_url : 'http://johnson.co',\n  online: true\n}"
-                              ]
+                              content : '<div class="user user_type_active">\n    <div class="avatar">\n        <img class="avatar__photo" href="john.png" >\n    </div>\n    <div class="user__info">\n        <div class="user__name">John Johnson</div>\n        <div class="user__company">"Johnson &amp; Johnson"</div>\n        <a class="user__website link" href="http://johnson.co">http://johnson.co</a>\n    </div>\n    <div class="user__add">add</div>\n</div>'
                             }
                           ]
                         }
@@ -2554,11 +2488,12 @@ module.exports = {
                   content : [
                     {
                       elem : 'item',
-                      elemMods : { state : 'active' },
+                      elemMods : { type : 'bemhtml', state : 'active' },
                       content : 'BEMHTML'
                     },
                     {
                       elem : 'item',
+                      elemMods : { type : 'html' },
                       content : 'HTML'
                     }
                   ]
@@ -2580,7 +2515,7 @@ module.exports = {
                 },
                 {
                   elem : 'steps',
-                  elemMods : { type : 'bemhtml'},
+                  elemMods : { type : 'bemhtml', state : 'active' },
                   content : [
                     {
                       elem : 'item',
@@ -2604,7 +2539,7 @@ module.exports = {
                                 id : 'edit61'
                               },
                               content : [
-                                "block('user')(\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    ),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            addAttrs()((context, json) => ({ href: json.url }))\n        )\n    ),\n\n    elem('photo').wrap()(function() {\n        return {\n            block: 'avatar',\n            content: this.ctx\n        }\n    }),\n\n    elem('company')(\n        prependContent()('«'),\n        appendContent()('»')\n    ),\n\n    elem('website')(\n        tag()('a'),\n        mix()({ block: 'link' }),\n        addAttrs()((context, json) => ({ href: json.url })\n    )\n);"
+                                "block('user')(\n    \n    content()(function(n, ctx) {\n        return {\n            elem : 'photo',\n            url: ctx.url,\n            title: 'john-photo'\n        }\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    ),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            addAttrs()((context, json) => ({ href: json.url }))\n        )\n    ),\n\n    elem('photo').wrap()(function() {\n        return {\n            block: 'avatar',\n            content: this.ctx\n        }\n    }),\n\n    elem('company')(\n        prependContent()('«'),\n        appendContent()('»')\n    ),\n\n    elem('website')(\n        tag()('a'),\n        mix()({ block: 'link' }),\n        addAttrs()((context, json) => ({ href: json.url })\n    )\n);"
                               ]
                             }
                           ]
@@ -2633,7 +2568,7 @@ module.exports = {
                                 id : 'edit62'
                               },
                               content : [
-                                "block('user')(\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    ),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            addAttrs()((context, json) => ({ href: json.url }))\n        )\n    ),\n\n    elem('photo').wrap()(function() {\n        return {\n            block: 'avatar',\n            content: this.ctx\n        }\n    }),\n\n    elem('company')(\n        prependContent()('«'),\n        appendContent()('»')\n    ),\n\n    elem('website')(\n        tag()('a'),\n        mix()({ block: 'link' }),\n        addAttrs()((context, json) => ({ href: json.url })\n    ),\n\n    elem('add').replace()({\n        block: 'add-to-friend'\n    })\n);"
+                                "block('user')(\n    \n    content()(function(n, ctx) {\n        return {\n            elem : 'photo',\n            url: ctx.url,\n            title: 'john-photo'\n        }\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    ),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            addAttrs()((context, json) => ({ href: json.url }))\n        )\n    ),\n\n    elem('photo').wrap()(function() {\n        return {\n            block: 'avatar',\n            content: this.ctx\n        }\n    }),\n\n    elem('company')(\n        prependContent()('«'),\n        appendContent()('»')\n    ),\n\n    elem('website')(\n        tag()('a'),\n        mix()({ block: 'link' }),\n        addAttrs()((context, json) => ({ href: json.url })\n    ),\n\n    elem('add').replace()({\n        block: 'add-to-friend'\n    })\n);"
                               ]
                             }
                           ]
@@ -2667,10 +2602,7 @@ module.exports = {
                               attrs : {
                                 id : 'edit63'
                               },
-                              content :
-                              [
-                                "{\n  block : 'user',\n  url: 'john.png', \n  name : 'John Johnson',\n  company : 'Johnson & Johnson',\n  website : 'http://johnson.co',\n  website_url : 'http://johnson.co',\n  online: true\n}"
-                              ]
+                              content : '<div class="user user_type_active">\n    <div class="avatar">\n        <img class="avatar__photo" href="john.png" >\n    </div>\n    <div class="user__info">\n        <div class="user__name">John Johnson</div>\n        <div class="user__company">"Johnson &amp; Johnson"</div>\n        <a class="user__website link" href="http://johnson.co">http://johnson.co</a>\n    </div>\n    <div class="user__add">add</div>\n</div>'
                             }
                           ]
                         }
@@ -2697,10 +2629,7 @@ module.exports = {
                               attrs : {
                                 id : 'edit64'
                               },
-                              content :
-                              [
-                                "{\n  block : 'user',\n  url: 'john.png', \n  name : 'John Johnson',\n  company : 'Johnson & Johnson',\n  website : 'http://johnson.co',\n  website_url : 'http://johnson.co',\n  online: true\n}"
-                              ]
+                              content : '<div class="user user_type_active">\n    <div class="avatar">\n        <img class="avatar__photo" href="john.png" >\n    </div>\n    <div class="user__info">\n        <div class="user__name">John Johnson</div>\n        <div class="user__company">"Johnson &amp; Johnson"</div>\n        <a class="user__website link" href="http://johnson.co">http://johnson.co</a>\n    </div>\n    <div class="add-to-friend"></div>\n</div>'
                             }
                           ]
                         }
@@ -2722,11 +2651,12 @@ module.exports = {
                   content : [
                     {
                       elem : 'item',
-                      elemMods : { state : 'active' },
+                      elemMods : { type : 'bemhtml', state : 'active' },
                       content : 'BEMHTML'
                     },
                     {
                       elem : 'item',
+                      elemMods : { type : 'html' },
                       content : 'HTML'
                     }
                   ]
@@ -2748,7 +2678,7 @@ module.exports = {
                 },
                 {
                   elem : 'steps',
-                  elemMods : { type : 'bemhtml'},
+                  elemMods : { type : 'bemhtml', state : 'active' },
                   content : [
                     {
                       elem : 'item',
@@ -2772,7 +2702,7 @@ module.exports = {
                                 id : 'edit71'
                               },
                               content : [
-                                "{\n    block : 'user',\n    url: 'john.png',\n    name : 'John Johnson',\n    company : 'Johnson & Johnson',\n    website : 'http://johnson.co',\n    website : 'http://johnson.co',\n    online: true\n}"
+                                "block('user')(\n    \n    content()(function(n, ctx) {\n        return {\n            elem : 'photo',\n            url: ctx.url,\n            title: 'john-photo'\n        }\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    ),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            addAttrs()((context, json) => ({ href: json.url }))\n        )\n    ),\n\n    elem('photo').wrap()(function() {\n        return {\n            block: 'avatar',\n            content: this.ctx\n        }\n    }),\n\n    elem('company')(\n        prependContent()('«'),\n        appendContent()('»')\n    ),\n\n    elem('website')(\n        tag()('a'),\n        mix()({ block: 'link' }),\n        addAttrs()((context, json) => ({ href: json.url })\n    )\n);"
                               ]
                             }
                           ]
@@ -2801,8 +2731,68 @@ module.exports = {
                                 id : 'edit72'
                               },
                               content : [
-                                "{\n    block : 'user',\n    url: 'john.png',\n    name : 'John Johnson',\n    company : 'Johnson & Johnson',\n    website : 'http://johnson.co',\n    website : 'http://johnson.co',\n    online: true,\n    website-personal : 'http://johnson.co',\n    website-personal_url : 'http://johnson.co'\n}"
+                                "block('user')(\n    \n    content()(function(n, ctx) {\n        return {\n            elem : 'photo',\n            url: ctx.url,\n            title: 'john-photo'\n        }\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'add',\n                content : 'add'\n            }\n        ]\n    }),\n\n    content()(function(n, ctx) {\n        return [\n            applyNext(),\n            {\n                elem : 'info',\n                content : [\n                    {\n                        elem : 'name',\n                        content : ctx.name\n                    },\n                    {\n                        elem : 'company',\n                        content : 'Johnson & Johnson'\n                    },\n                    {\n                        elem : 'website',\n                        content : 'http://johnson.co',\n                        url : 'http://johnson.co'\n                    }\n                ]\n            }\n        ]\n    }),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            tag()('img')\n        )\n    ),\n\n    elem('photo')(\n        match(function (context, json) { return json.url; })(\n            addAttrs()((context, json) => ({ href: json.url }))\n        )\n    ),\n\n    elem('photo').wrap()(function() {\n        return {\n            block: 'avatar',\n            content: this.ctx\n        }\n    }),\n\n    elem('company')(\n        prependContent()('«'),\n        appendContent()('»')\n    ),\n\n    elem('website')(\n        tag()('a'),\n        mix()({ block: 'link' }),\n        addAttrs()((context, json) => ({ href: json.url })\n    ),\n\n    elem('info')(\n        content()(function(n, ctx) {\n            return [\n                applyNext(),\n                {\n                    elem : 'website',\n                    content : 'http://bem.info',\n                    url : 'http://bem.info'\n                }\n            ]\n        })\n    )\n);"
                               ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  elem : 'steps',
+                  elemMods : { type : 'html' },
+                  content : [
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Предыдущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit73'
+                              },
+                              content : '<div class="user user_type_active">\n    <div class="avatar">\n        <img class="avatar__photo" href="john.png" >\n    </div>\n    <div class="user__info">\n        <div class="user__name">John Johnson</div>\n        <div class="user__company">"Johnson &amp; Johnson"</div>\n        <a class="user__website link" href="http://johnson.co">http://johnson.co</a>\n    </div>\n    <div class="add-to-friend"></div>\n</div>'
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      elem : 'item',
+                      content : [
+                        {
+                          block : 'field',
+                          content : [
+                            {
+                              elem : 'header',
+                              content : [
+                                {
+                                  block : 'text',
+                                  mods : { view : 'inverse', size : 'm', transform : 'uppercase', spacing : 's' },
+                                  content : 'Текущий шаг'
+                                }
+                              ]
+                            },
+                            {
+                              elem : 'content',
+                              attrs : {
+                                id : 'edit74'
+                              },
+                              content : '<div class="user user_type_active">\n    <div class="avatar">\n        <img class="avatar__photo" href="john.png" >\n    </div>\n    <div class="user__info">\n        <div class="user__name">John Johnson</div>\n        <div class="user__company">"Johnson &amp; Johnson"</div>\n        <a class="user__website link" href="http://johnson.co">http://johnson.co</a> <a class="user__website link" href="http://bem.info">http://bem.info</a>\n    </div>\n    <div class="add-to-friend"></div>\n</div>'
                             }
                           ]
                         }

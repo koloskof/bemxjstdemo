@@ -31,15 +31,21 @@
     position: relative;
   }
   &__steps {
+    display: none;
+    justify-content: space-between;
+    &_state {
+      &_active {
+        display: flex;
+      }
+    }
     &_type {
       &_bemhtml {
 
       }
       &_html {
-        display: none;
+
       }
     }
-    display: flex;
-    justify-content: space-between;
+
   }
 }
