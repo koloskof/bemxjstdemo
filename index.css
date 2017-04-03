@@ -624,17 +624,18 @@ html {
   position: relative;
 }
 .code-example__steps {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.code-example__steps_type_bemhtml {}
-.code-example__steps_type_html {
-  display: none;
+.code-example__steps_state_active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
+.code-example__steps_type_bemhtml {}
+.code-example__steps_type_html {}
 .code-toggle {
   position: absolute;
   top: 36px;

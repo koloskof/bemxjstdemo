@@ -458,8 +458,27 @@ $('.step_num_7').click(function(){
   $('.code-example_num_7').addClass('code-example_state_active');
 });
 
+
+$('.code-toggle__item_type_html').click(function () {
+  $('.code-toggle__item_type_html').addClass('code-toggle__item_state_active');
+  $('.code-toggle__item_type_bemhtml').removeClass('code-toggle__item_state_active');
+
+  $('.code-example__steps_type_html ').addClass('code-example__steps_state_active');
+  $('.code-example__steps_type_bemhtml ').removeClass('code-example__steps_state_active');
+});
+
+$('.code-toggle__item_type_bemhtml').click(function () {
+  $('.code-toggle__item_type_bemhtml').addClass('code-toggle__item_state_active');
+  $('.code-toggle__item_type_html').removeClass('code-toggle__item_state_active');
+
+  $('.code-example__steps_type_bemhtml ').addClass('code-example__steps_state_active');
+  $('.code-example__steps_type_html ').removeClass('code-example__steps_state_active');
+});
+
 var editor11 = ace.edit("edit11");
 var editor12 = ace.edit("edit12");
+var editor13 = ace.edit("edit13");
+var editor13 = ace.edit("edit14");
 
 
 var editor21 = ace.edit("edit21");
